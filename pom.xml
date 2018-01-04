@@ -73,7 +73,7 @@
               <executable>pdflatex</executable>
               <arguments>
                 <argument>-interaction=nonstopmode</argument>
-                <argument>DOC-ELLIP.tex</argument>
+                <argument>Ellip.tex</argument>
               </arguments>
               <successCodes>
                 <successCode>0</successCode>
@@ -92,7 +92,7 @@
               <executable>pdflatex</executable>
               <arguments>
                 <argument>-interaction=nonstopmode</argument>
-                <argument>DOC-ELLIP.tex</argument>
+                <argument>Ellip.tex</argument>
               </arguments>
               <successCodes>
                 <successCode>0</successCode>
@@ -111,7 +111,7 @@
               <executable>pdflatex</executable>
               <arguments>
                 <argument>-interaction=nonstopmode</argument>
-                <argument>DOC-ELLIP.tex</argument>
+                <argument>Ellip.tex</argument>
               </arguments>
               <successCodes>
                 <successCode>0</successCode>
@@ -135,7 +135,7 @@
             </goals>
             <configuration>
               <descriptors>
-                <descriptor>${basedir}/src/assembly/package-html.xml</descriptor>
+                <descriptor>${basedir}/source/assembly/package-html.xml</descriptor>
               </descriptors>
               <appendAssemblyId>true</appendAssemblyId>
             </configuration>
