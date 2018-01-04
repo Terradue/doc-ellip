@@ -1,5 +1,5 @@
-Welcome to the Ellip Documentation
-==================================
+Ellip Reference Guide
+======================
 
 .. toctree::
    :maxdepth: 3
