@@ -62,63 +62,6 @@
               </arguments>
             </configuration>
           </execution>
-          <execution>
-            <id>generate-pdf</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <workingDirectory>build/latex</workingDirectory>
-              <executable>pdflatex</executable>
-              <arguments>
-                <argument>-interaction=nonstopmode</argument>
-                <argument>Ellip.tex</argument>
-              </arguments>
-              <successCodes>
-                <successCode>0</successCode>
-                <successCode>1</successCode>
-              </successCodes>
-            </configuration>
-          </execution>
-          <execution>
-            <id>generate-pdf2</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <workingDirectory>build/latex</workingDirectory>
-              <executable>pdflatex</executable>
-              <arguments>
-                <argument>-interaction=nonstopmode</argument>
-                <argument>Ellip.tex</argument>
-              </arguments>
-              <successCodes>
-                <successCode>0</successCode>
-                <successCode>1</successCode>
-              </successCodes>
-            </configuration>
-          </execution>
-          <execution>
-            <id>generate-pdf3</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <workingDirectory>build/latex</workingDirectory>
-              <executable>pdflatex</executable>
-              <arguments>
-                <argument>-interaction=nonstopmode</argument>
-                <argument>Ellip.tex</argument>
-              </arguments>
-              <successCodes>
-                <successCode>0</successCode>
-                <successCode>1</successCode>
-              </successCodes>
-            </configuration>
-          </execution>
         </executions>
       </plugin>
       <plugin>
