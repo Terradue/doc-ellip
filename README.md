@@ -1,7 +1,8 @@
 ## Ellip documentation
 
 This is the official repository of the Ellip documentation.
-This documentation is live at http://docs.terradue.com/ellip/
+
+This documentation is live at https://docs.terradue.com
 
 ### Getting started
 
