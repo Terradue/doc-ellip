@@ -1,5 +1,5 @@
 Community Portal
-===============
+================
 
 .. toctree::
    :maxdepth: 3
