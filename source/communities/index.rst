@@ -1,5 +1,5 @@
 Communities active on Ellip
-=========================
+===========================
 
 .. toctree::
    :maxdepth: 3
