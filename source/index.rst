@@ -8,14 +8,4 @@ Ellip Reference Guide
    platform_web_services/index 
    solutions/index 
    communities/index 
-   developers_handbook/index 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
-.. |portal_url| replace:: https://docs.terradue.com
+   developer_handbook/index 
