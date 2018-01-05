@@ -1,2 +1,2 @@
-Cloud Dashboard
+Getting Started
 ===============

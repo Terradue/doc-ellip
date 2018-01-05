@@ -1,5 +1,5 @@
-Platform Web Services
-=====================
+Developer Handbook
+==================
 
 .. toctree::
    :maxdepth: 3

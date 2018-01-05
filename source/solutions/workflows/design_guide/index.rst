@@ -1,2 +1,2 @@
-User Support
+Design Guide
 ============
