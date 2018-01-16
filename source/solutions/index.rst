@@ -5,4 +5,5 @@ Solutions hosted on Ellip
    :maxdepth: 3
 
    workflows/index
+   partner/index
 

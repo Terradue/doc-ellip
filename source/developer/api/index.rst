@@ -5,5 +5,4 @@ Ellip API
    :maxdepth: 3
    
    data/index
-
-   community_portal/index
+   portal/index
