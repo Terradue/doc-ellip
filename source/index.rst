@@ -1,4 +1,4 @@
-Ellip Reference Guide
+Ellip Reference Manual
 ======================
 
 .. toctree::
