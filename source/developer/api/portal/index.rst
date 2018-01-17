@@ -1,9 +1,9 @@
-Community Portal
-================
+Community Portals
+=================
 
 .. toctree::
    :maxdepth: 3
 
-   data_packages/index
+   dp/index
    sso/index
-   production_center/index
+   production/index

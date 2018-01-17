@@ -1,5 +1,5 @@
-Welcome
-========
+Welcome to Ellip
+================
 
 .. toctree::
    :maxdepth: 3
