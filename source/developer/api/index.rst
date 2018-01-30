@@ -7,3 +7,4 @@ Ellip API
    catalog/index
    data/index
    production/index
+   incubator/index

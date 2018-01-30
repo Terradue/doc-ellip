@@ -6,4 +6,5 @@ Communities active on Ellip
 
    geohazards/index
    hydrology/index
+   coastal/index
 

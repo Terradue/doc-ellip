@@ -1,2 +1,2 @@
-Workflows (Git)
-===============
+Workflows
+=========
