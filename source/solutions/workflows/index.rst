@@ -1,5 +1,5 @@
-Workflows
-=========
+Ellip Workflows
+===============
 
 .. toctree::
    :maxdepth: 3

@@ -6,4 +6,4 @@ Ellip API
    
    catalog/index
    data/index
-   portal/index
+   production/index

@@ -1,5 +1,5 @@
-Platform Repository
-===================
+Platform Repositories
+=====================
 
 .. toctree::
    :maxdepth: 3

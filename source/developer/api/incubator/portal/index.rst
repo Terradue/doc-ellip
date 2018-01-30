@@ -6,4 +6,3 @@ Community Portals
 
    dp/index
    sso/index
-   production/index
