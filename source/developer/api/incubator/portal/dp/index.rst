@@ -19,7 +19,9 @@ Authentication
 We suggest to link User account and data packages by an API key, managed for each registered user at the Portal level.
 API Key can be used to retrieve the list of accessible data packages without being logged.
 
-Example: https://<your-portal>/data/package/search?key=MY_API_KEY
+Example:
+.. code-block:: curl
+	https://<your-portal>/data/package/search?key=MY_API_KEY
 
 Implementation
 ~~~~~~~~~~~~~~
@@ -59,7 +61,9 @@ Authentication
 User account and data packages are linked by an API key, managed for each Terradue user at the Portal level.
 Your API Key can be used to retrieve the list of your data packages without being logged.
 
-Example: https://ellip.terradue.com/t2api/data/package/search?key=MY_API_KEY
+Example:
+.. code-block:: curl
+	https://ellip.terradue.com/t2api/data/package/search?key=MY_API_KEY
 
 API
 ~~~
