@@ -21,7 +21,8 @@ API Key can be used to retrieve the list of accessible data packages without bei
 
 Example:
 
-.. code-block:: curl
+.. code-block::
+
 	https://<your-portal>/data/package/search?key=MY_API_KEY
 
 Implementation
@@ -64,7 +65,8 @@ Your API Key can be used to retrieve the list of your data packages without bein
 
 Example:
 
-.. code-block:: curl
+.. code-block::
+
 	https://ellip.terradue.com/t2api/data/package/search?key=MY_API_KEY
 
 API

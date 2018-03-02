@@ -18,7 +18,8 @@ The workflow will then be the following:
 # User is redirected to your OpenID server authorization endpoint 
 Example:
 
-.. code-block:: curl
+.. code-block::
+
 	GET https://<your-openid-server>/oauth2/authorize?response_type=code&scope=<scopes>&client_id=<clientId>&state=<state>&redirect_uri=<t2-redirect_uri>&nonce=<nonce>
 
 # User login with his credentials
@@ -26,13 +27,15 @@ Example:
 # T2 portal get tokens from code 
 Example:
 
-.. code-block:: curl
+.. code-block::
+
 	POST https://<your-openid-server>/oauth2/token?grant_type=authorization_code&redirect_uri=<t2-callback-uri>&code=<code>
 
 # T2 portal get user info from user info endpoint 
 Example:
 
-.. code-block:: curl
+.. code-block::
+
 	POST https://<your-openid-server>/oauth2/userinfo?schema=openid?client_id=<clientId>&client_secret=<clientSecret>&grant_type=refresh_token&refresh_token=<token>&scope=<scopes>
 
 # User is logged in on Terradue
