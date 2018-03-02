@@ -20,6 +20,7 @@ We suggest to link User account and data packages by an API key, managed for eac
 API Key can be used to retrieve the list of accessible data packages without being logged.
 
 Example:
+
 .. code-block:: curl
 	https://<your-portal>/data/package/search?key=MY_API_KEY
 
@@ -62,6 +63,7 @@ User account and data packages are linked by an API key, managed for each Terrad
 Your API Key can be used to retrieve the list of your data packages without being logged.
 
 Example:
+
 .. code-block:: curl
 	https://ellip.terradue.com/t2api/data/package/search?key=MY_API_KEY
 
