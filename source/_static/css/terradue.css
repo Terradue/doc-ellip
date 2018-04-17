@@ -7,7 +7,8 @@
 .wy-side-nav-search {
     background: rgb(106, 202, 214);
     color: #fff;
-    padding: 18px;
+    padding: 12px;
+    height: 61px;
 }
 
 .wy-side-nav-search input[type=text] { line-height: initial; }
@@ -114,7 +115,8 @@
 	.t2-breadcrumbs > a { display: none; }
 	
 	.wy-side-nav-search {
-		padding: 15px;
+    	padding: 14px;
+    	height: 60px;
 	}
 }
 
