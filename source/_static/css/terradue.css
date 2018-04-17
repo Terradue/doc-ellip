@@ -98,6 +98,13 @@
 	background: none;
 }
 
+.wy-side-nav-search>.version{
+	color: rgba(255,255,255,0.5);
+	margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
 @media screen and (max-width: 768px){
 	.t2-breadcrumbs{
 		background: none;
