@@ -102,6 +102,15 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_context = {
+    'extra_css_files': [
+        '_static/css/terradue.css'
+    ],
+    'favicon': 'img/favicon.png',
+    'logo': 'img/Ellip_logo_only.png',
+    'theme_logo_only': 'true'
+}
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
