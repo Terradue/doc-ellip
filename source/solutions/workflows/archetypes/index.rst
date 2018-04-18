@@ -1,3 +1,5 @@
+.. _archetypes:
+
 Application Archetypes
 ======================
 
@@ -25,7 +27,7 @@ In order to generate an application based on an archetype, follow the procedure 
   3: https://repository.terradue.com/artifactory/libs-release-public/archetype-catalog.xml -> com.terradue.app:dcs-R-archetype (Archetype for Developer Cloud Sandbox R Applications - BETA)
   Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 2
 
-* Set the 'groupId', 'artifactId', 'version' and 'package' values for your project. For example:
+* Set the 'groupId', 'artifactId', 'version', 'package', 'community', 'description' and 'summary' values for your project. For example:
 
 .. code-block:: console
 

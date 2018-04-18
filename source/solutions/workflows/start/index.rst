@@ -1,2 +1,4 @@
+.. _start:
+
 Getting Started
 ===============
