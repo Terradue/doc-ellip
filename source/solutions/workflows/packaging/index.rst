@@ -1,4 +1,2 @@
-.. _packaging:
-
 Application Packaging
 =====================
