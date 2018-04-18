@@ -1,0 +1,356 @@
+
+.wy-nav-content {
+    max-width: inherit;
+    padding: 0px;
+}
+
+.wy-side-nav-search {
+    background: rgb(106, 202, 214);
+    color: #fff;
+    padding: 12px;
+    height: 61px;
+}
+
+.wy-side-nav-search input[type=text] { line-height: initial; }
+
+.wy-nav-top {
+    background: rgb(106, 202, 214);
+    color: #fff;
+}
+
+.wy-side-nav-search a, .wy-nav-top a, .wy-side-nav-search a:visited, .wy-nav-top a:visited {
+    color: #fff;
+    font-size: 100%;
+}
+
+.wy-menu-vertical a, .wy-menu-vertical a:visited {
+	color: #eee;
+	font-size: 100%;
+}
+
+.rst-content > .document {
+    padding: 0 3.236em;
+}
+
+.rst-content > footer {
+    color: gray;
+    padding: 0 3.236em;
+}
+
+@media screen and (min-width: 1100px) {
+	.wy-nav-content-wrap {
+    	background: #fcfcfc;
+	}
+}
+
+.t2-breadcrumbs {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.t2-breadcrumbs .logo {
+    float: left;
+    width: 100px;
+    margin: 0px 12px;
+}
+
+.wy-breadcrumbs {
+    margin: 5px 0px 0px 0px;
+}
+
+.wy-breadcrumbs a, .wy-breadcrumbs a:visited {
+    color: #9d9d9d;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    -webkit-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out,color .3s ease-in-out;
+    transition: opacity .3s ease-in-out,color .3s ease-in-out;
+}
+.wy-breadcrumbs a:hover {
+	color: #b1b1b1;
+}
+
+.wy-breadcrumbs > li {
+    color: #333;
+    text-transform: uppercase;
+}
+
+.toctree-wrapper.compound {
+    font-weight: bold;
+}
+
+.wy-side-nav-search>a img.logo {
+	width: 100px;
+}
+
+.wy-nav-top {
+	line-height: 40px;
+}
+
+.wy-nav-top img.logo {
+	width: 100px;
+	height: auto;
+	border-radius: 0px;
+	background: none;
+}
+
+.wy-side-nav-search>.version{
+	color: rgba(255,255,255,0.5);
+	margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+@media screen and (max-width: 768px){
+	.t2-breadcrumbs{
+		background: none;
+		padding: 0px;
+	}
+	
+	.t2-breadcrumbs > a { display: none; }
+	
+	.wy-side-nav-search {
+    	padding: 14px;
+    	height: 60px;
+	}
+}
+
+
+
+
+/* IMAGES ALIGNMENT */
+img.align-center, .figure.align-center, object.align-center {
+	max-width: 100%;
+}
+
+
+
+/* CODEBLOCKS */
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] {
+	border: none;
+}
+/* styling caption tip for some code-blocks languages */
+.highlight-console:before,
+.highlight-console-output:before,
+.highlight-xml:before,
+.highlight-bash:before,
+.highlight-python:before,
+.highlight-r:before
+{
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    padding: 0px 5px;
+    display: inline-block;
+    height: 17px;
+    background-color: #f5f5f5;
+    vertical-align: bottom;
+    line-height: 16px;
+	color: #333;
+}
+
+/* set default text for each code block language previosly defined*/
+.highlight-console:before {
+	content: "Console command";
+}
+.highlight-console-output:before {
+	content: "Console output";
+}
+.highlight-xml:before {
+	content: "XML document";
+}
+.highlight-bash:before {
+	content: "Bash script";
+}
+.highlight-python:before {
+	content: "Python";
+}
+.highlight-r:before {
+	content: "R";
+}
+
+/* set context texts */
+.context-run-executable.container > .highlight-bash:before {
+	content: "Bash run executable";
+}
+.context-run-executable.container > .highlight-r:before {
+	content: "R run executable";
+}
+.context-run-executable.container > .highlight-python:before {
+	content: "Python run executable";
+}
+.context-application-descriptor-file.container > .highlight-xml:before {
+	content: "Application Descriptor file (XML)";
+}
+
+/* remove border top left radius when there's the caption element */
+.highlight-console pre,
+.highlight-console-output pre,
+.highlight-xml pre,
+.highlight-bash pre,
+.highlight-python pre,
+.highlight-r pre
+{
+	border-top-left-radius: 0px;
+}
+
+/* enphatize console */
+.highlight-console pre, .highlight-console-output pre {
+	border-top-left-radius: 0px;
+	background: #444;
+	border-color: #444;
+}
+
+.highlight-console pre, .highlight-console-output pre, .highlight-console pre>span, .highlight-console pre>span.go {
+	color: #1BDF00;
+}
+
+.highlight-console pre>span.go:before {
+	content: "$";
+	margin-right: 9px;
+	color: #eee;
+}
+
+/* custom captions */
+.context-custom.container>[class^="highlight-"]:before {
+	content: initial;
+}
+.context-custom.container>[class^="highlight-"] pre {
+	border-top-left-radius: 0px;
+}
+.context-custom.container>p {
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid #ccc;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+	padding: 0px 5px;
+	height: 17px;
+	font-size: 10px;
+	background-color: #f5f5f5;
+}
+
+/* any pre */
+.rst-content div[class^='highlight'] pre{
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+
+
+/* AEQUIPA BASE STYLES */
+body {
+	font-family: 'Raleway', sans-serif;    font-family: Raleway,sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #818181;
+	font-weight: 500;
+	background-color: #f6f6f6;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, .h1, .title h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h2, .h2, h2 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	letter-spacing: 0px;
+}
+
+h3, .h3, h3 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0px;
+}
+
+h4, .h4, h4 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h5, .h5, h5 a, .q_icon_with_title .icon_text_holder h5.icon_title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h6, .h6, h6 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+hr.primary {
+    margin: 0px;
+    border: 1px solid #00b4a5;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+a, p a, a:visited {
+	color: #2BAA9D;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover, p a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+.btn-info, .btn-warning, .btn-danger, .btn-success {
+   color: white;
+}
+
+/*aequipa customization*/
+.uppercase {
+	/* color: #f2f2f2; */
+	text-transform: uppercase;
+}
+.inverted {
+	background-color: #262626;
+	color: #f2f2f2;
+}
+
+/* section {
+    padding: 40px 0px;
+    min-height: 300px;
+    background-size: cover;
+}
+ */
+section.section-primary {
+	background-image: url(/stylesNew/img/section-primary-background.jpg);
+}
+
+.page-banner {
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.page-banner h1 { font-size: 500%; }
+
