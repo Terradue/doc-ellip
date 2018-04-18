@@ -15,8 +15,7 @@ In order to generate an application based on an archetype, follow the procedure 
   cd
   mvn archetype:generate
 
-* Select the entry relative to the application archetype you want to use.
-Currently, archetypes are available for: Python, Bash, R [#f1]_. In this example, the option 2 (Bash) is selected:
+* Select the entry relative to the application archetype you want to use. Currently, archetypes are available for: Python, Bash, R [#f1]_. In this example, the option 2 (Bash) is selected:
 
 .. code-block:: console
 
