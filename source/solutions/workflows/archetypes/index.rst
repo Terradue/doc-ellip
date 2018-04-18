@@ -16,9 +16,7 @@ In order to generate an application based on an archetype, follow the procedure 
   mvn archetype:generate
 
 * Select the entry relative to the application archetype you want to use.
-Currently, archetypes are available for: Python, Bash, R [#f1]_.
-
-In this example, the option 2 (Bash) is selected:
+Currently, archetypes are available for: Python, Bash, R [#f1]_. In this example, the option 2 (Bash) is selected:
 
 .. code-block:: console
 
@@ -28,8 +26,7 @@ In this example, the option 2 (Bash) is selected:
   3: https://repository.terradue.com/artifactory/libs-release-public/archetype-catalog.xml -> com.terradue.app:dcs-R-archetype (Archetype for Developer Cloud Sandbox R Applications - BETA)
   Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 2
 
-* Set the 'groupId', 'artifactId', 'version' and 'package' values for your project. 
-For example:
+* Set the 'groupId', 'artifactId', 'version' and 'package' values for your project. For example:
 
 .. code-block:: console
 
@@ -50,5 +47,5 @@ After that, you will see a folder with the name of the artifactId (here *myapp*)
   ./myapp/src/main/app-resources
 
 
-.. [#f1] We will provide soon application archetypes for popular software for the Earth Observation, such as `SNAP<http://step.esa.int/main/toolboxes/snap/>`_ and `OTB<https://www.orfeo-toolbox.org/>`_.
+.. [#f1] We will provide soon application archetypes for popular software for the Earth Observation, such as `SNAP <http://step.esa.int/main/toolboxes/snap/>`_ and `OTB <https://www.orfeo-toolbox.org/>`_.
 
