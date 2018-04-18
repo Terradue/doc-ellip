@@ -3,14 +3,14 @@
 Application Archetypes
 ======================
 
-An application archetype is a model of a workflow application. An instance of an application based on an archetype is ready to be executed, and to be adapted accordingly to the specific User needs. Such instance offers a powerful mean to automatically handle the application's packaging (see :doc:`Application Packaging <../packaging>`), sharing, and Cloud deployments.
+An application archetype is a model of a workflow application. An instance of an application based on an archetype is ready to be executed, and to be adapted accordingly to the specific User needs. Such instance offers a powerful mean to automatically handle the application's packaging (see :ref:`packaging`), sharing, and Cloud deployments.
 
 Using archetypes
 ++++++++++++++++
 
 In order to generate an application based on an archetype, follow the procedure described below.
 
-* Log on your Developer Cloud Sandbox (see :doc:`Getting Started <../start>`) instance, and type:
+* Log on your Developer Cloud Sandbox (see :ref:`start`) instance, and type:
 
 .. code-block:: console
 
