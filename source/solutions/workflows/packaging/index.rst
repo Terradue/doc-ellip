@@ -1,4 +1,4 @@
-.. _archetypes:
+.. _packaging:
 
 Application Packaging
 =====================
