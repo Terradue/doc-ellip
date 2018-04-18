@@ -1,23 +1,14 @@
 Application Archetypes
 ======================
 
-An application archetype is a model of a workflow application. An instance of an application based on an archetype is ready to be executed, adapted to the User needs
+An application archetype is a model of a workflow application. An instance of an application based on an archetype is ready to be executed, and to be adapted accordingly to the specific User needs. Such instance offers a powerful mean to automatically handle the application's packaging (see :doc:`Application Packaging <../packaging>`), sharing, and Cloud deployments.
 
 Using archetypes
 ++++++++++++++++
 
+In order to generate an application based on an archetype, follow the procedure described below.
 
-Prerequisites
-*************
-
-
-
-Procedure
-*********
-
-To generate an application based on an archetype:
-
-* Log on your Developer Cloud Sandbox instance, and type:
+* Log on your Developer Cloud Sandbox (see :doc:`Getting Started <../start>`) instance, and type:
 
 .. code-block:: console
 
@@ -25,15 +16,16 @@ To generate an application based on an archetype:
   mvn archetype:generate
 
 * Select the entry relative to the application archetype you want to use.
-Currently, archetypes are available for: Python, Bash, R. (---upcoming OTB, SNAP)
+Currently, archetypes are available for: Python, Bash, R [#f1]_.
 
 In this example, the option 2 (Bash) is selected:
 
 .. code-block:: console
 
   Choose archetype:
-  1: -> com.terradue.ciop.app:dcs-python-archetype (Archetype for Developer Cloud Sandbox Python Applications)
-  2: -> com.terradue.ciop.app:dcs-bash-archetype (Archetype for Developer Cloud Sandbox Bash Applications)
+  1: https://repository.terradue.com/artifactory/libs-release-public/archetype-catalog.xml -> com.terradue.app:dcs-bash-archetype (Archetype for Developer Cloud Sandbox Bash Applications - v2)
+  2: https://repository.terradue.com/artifactory/libs-release-public/archetype-catalog.xml -> com.terradue.app:dcs-python-archetype (Archetype for Developer Cloud Sandbox Python Applications - v2)
+  3: https://repository.terradue.com/artifactory/libs-release-public/archetype-catalog.xml -> com.terradue.app:dcs-R-archetype (Archetype for Developer Cloud Sandbox R Applications - BETA)
   Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 2
 
 * Set the 'groupId', 'artifactId', 'version' and 'package' values for your project. 
@@ -42,28 +34,21 @@ For example:
 .. code-block:: console
 
   Define value for property 'groupId': : com.terradue
-  Define value for property 'artifactId': : myapp
-  Define value for property 'version':  1.0-SNAPSHOT: : 
-  Define value for property 'package':  com.terradue: : myapp
+  Define value for property 'artifactId': : <app-name>
+  Define value for property 'version':  1.0-SNAPSHOT: :
+  Define value for property 'package':  : : <app-name>
+  Define value for property 'community': : <your community, for example geohazards-tep>
+  Define value for property 'description': : <a long description of your Application>
+  Define value for property 'summary': : <a short description of your Application>
 
-NOTE: the 'version' will be set by default to '1.0-SNAPSHOT'.
+*NOTE*: the 'version' will be set by default to '1.0-SNAPSHOT'.
 
-After that, you will see a folder with the name of the artifactId (here **myapp**).
-You can start building your application from this structure, offering you a powerful mean to handle your Application's packaging, sharing, and Cloud deployments.
+After that, you will see a folder with the name of the artifactId (here *myapp*), where you can start writing your application, in particular editing the files under:
 
-In that folder, the resulting Maven configuration file 'pom.xml' will have initial tags similar to:
+.. code-block:: console
 
-.. code-block:: bash
+  ./myapp/src/main/app-resources
 
-  <groupId>com.terradue</groupId>
-  <artifactId>myapp</artifactId>
-  <packaging>pom</packaging>
-  <name>dcs-bash</name>
-  <description>dcs-bash</description>
-  <version>1.0-SNAPSHOT</version>
 
-Learn more
-
-https://maven.apache.org/pom.html#Properties
-
+.. [#f1] We will provide soon application archetypes for popular software for the Earth Observation, such as `SNAP<http://step.esa.int/main/toolboxes/snap/>`_ and `OTB<https://www.orfeo-toolbox.org/>`_.
 
