@@ -1,7 +1,8 @@
 Production Center
 =================
 
-   .. toctree::
+
+.. toctree::
    :maxdepth: 2
 
    concepts/index
@@ -12,3 +13,4 @@ Production Center
    storage
    caching
    reference
+
