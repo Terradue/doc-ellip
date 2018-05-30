@@ -61,7 +61,7 @@ If the resource location returned by the catalogue points to a data gateway like
 then the download is performed via the Data Gateway that enables many function such as caching to allow the best download performance of the data requested.
 
 
-.. warning:: Please be aware that the Data Gateway Proxy Download may take some time to start dependeng of the configuration of the repository from which you perform the download. Indeed, the data gateway may be required to perform :ref:`implicitcaching` before delivering the data.
+.. warning:: Please be aware that the Data Gateway Proxy Download may take some time to start depending of the configuration of the repository from which you perform the download. Indeed, the data gateway may be required to perform :ref:`implicitcaching` before delivering the data.
 
 
 

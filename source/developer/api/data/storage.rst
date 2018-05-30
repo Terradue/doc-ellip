@@ -14,7 +14,7 @@ You should see a simple (empty) HTML index.
 
 .. note:: replace **mrossi** by your own username
 
-If by any chance, the reponse is 404, this means your repository does not exist yet, please contact support@terradue.com.
+If by any chance, the reponse is 404, this means your repository does not exist yet. You can create it yourself from your Terradue profile (see https://www.terradue.com/portal/settings), or you can  contact support@terradue.com.
 
 
 Upload data

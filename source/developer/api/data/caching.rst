@@ -18,7 +18,7 @@ When a data is downloaded via the :ref:`datagatewayproxydl`, there is a chance t
 Early caching
 ^^^^^^^^^^^^^
 
-On the other hand, there is the possibility to explicitely request the cache of a specific data in the data gateway in anticipation of a leter usage of this data in a processing. In order to simply ask for the early caching of the data in the system. simply perform a HTTP HEAD on the delegate download url returned by the catalogue
+On the other hand, there is the possibility to explicitely request the cache of a specific data in the data gateway in anticipation of a later usage of this data in a processing. In order to simply ask for the early caching of the data in the system. simply perform a HTTP HEAD on the delegate download url returned by the catalogue
 
 .. code-block:: console
 
@@ -32,7 +32,7 @@ Some curl parametrs here are important to understand:
 
   - ``--location-trusted`` this instructs curl to allow sending the name + password/api key to all hosts that the site may redirect to. Your request must be always authenticated, even after a redirection.
   
-  - ``-m 10`` This optional srgument instructs curl that this operation shall not take more than 10 seconds. If we do not want to wait for the result of the caching, we can use this argument to close the connection to the server after a certain time. The data gateway keeps anyway caching the data.
+  - ``-m 10`` This optional argument instructs curl that this operation shall not take more than 10 seconds. If we do not want to wait for the result of the caching, we can use this argument to close the connection to the server after a certain time. The data gateway keeps anyway caching the data.
 
 
 .. note:: If the request above answers directly with a HTTP 200 response. It means the data is already cached and ready to download.

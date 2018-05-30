@@ -8,7 +8,7 @@ Terminology
 Data Cluster
 """"""""""""
 
-A data cluster is a collection of one or more nodes (servers) that together brings an instance of the :ref:`data agency <dataagency>` and holds your entire documents and data. It provides federated indexing and search capabilities across all nodes. A cluster is identified by its host name. The prime data cluster is ``data.terradue.com`` and all the tools uses it by default.
+A data cluster is a collection of one or more nodes (servers) that together brings an instance of the :ref:`data agency <dataagency>` and holds your entire documents and data. It provides federated indexing and search capabilities across all nodes. A cluster is identified by its host name.
 
 
 .. _catalogue:

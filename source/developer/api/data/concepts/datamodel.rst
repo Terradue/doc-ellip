@@ -4,7 +4,7 @@ Metadata models
 ^^^^^^^^^^^^^^^
 
 
-A data model defines and analyzes :ref:`entry` specifications to support a metadata structure corresponding to the business domain of the dataset. this structure is used to
+A data model defines and analyzes :ref:`entry` specifications to support a metadata structure corresponding to the business domain of the dataset. This structure is used to
 
 1. represent the :ref:`entry`'s metadata of a dataset in different :ref:`media types <mediatype>`.
 2. identify the values in the metadata according to the query parameters of a :ref:`opensearch` query and filter the dataset accordingly.
@@ -71,6 +71,7 @@ Geo & Time model
 The Geo & Time model is directly derived from the specification for the `OpenSearch Geo and Time extensions <http://www.opengeospatial.org/standards/opensearchgeo>`_. it is intended to provide a very simple way to structure spatial and temporal metadata to a geospatial entry that contains geographic and temporal properties.
 
 In short, an Geo&Time entry is specified by:
+
 - a temporal reference
 - a geographic reference
 

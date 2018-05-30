@@ -232,7 +232,7 @@ This command using opensearch-client makes a temporal and spatial search and ret
 Update entries
 ^^^^^^^^^^^^^^
 
-The update of updating entries in the index is the same as per creation. If you specify the same identifier element, the corresponding entry will be simply updated. The catalogue shall return a response similar to this one:
+The command to update entries in the index is the same as per creation. If you specify the same identifier element, the corresponding entry will be simply updated. The catalogue shall return a response similar to this one:
 
 .. code-block:: json
 
