@@ -129,6 +129,9 @@ The output will be similar to:
   Since the Hadoop Sandbox mode that is used here runs on a Virtual Machine offering two Cores, and the node 'my_node' has to process only two inputs, the input1 and input2 lines have been processed in parallel, by two simultaneous tasks (each task processing a single entry of the input file). 
   From there, Hadoop deployments in Cluster mode will handle the scaling up of your application to a larger amount of data input and processing nodes.
 
+The job did not actually produce anything useful, but two lines of logging. We explain how you can access the logs via a web browser in the :doc:`next exercise <debug>`.
+
+
 Recap
 =====
 

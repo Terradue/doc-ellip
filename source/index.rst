@@ -8,4 +8,4 @@ Ellip Reference Manual
    core/index 
    solutions/index 
    communities/index 
-   developer/index 
+   developer/index

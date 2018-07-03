@@ -55,7 +55,7 @@ Run and debug the workflow
 
   ciop-run node_expression
 
-* Check the output of the application by copying the Tracking URL from the *ciop-run* command, and paste it in a browser (see :doc:`make a robust workflow and debug it <debug>`). You will see an output similar to:
+* Check the output of the application by copying the Tracking URL from the *ciop-run* command, and paste it in a browser (see :doc:`Exercise 2: make a robust workflow and debug it <debug>`). You will see an output similar to:
 
 .. figure:: includes/parameters/gui1.png
      :scale: 55 %

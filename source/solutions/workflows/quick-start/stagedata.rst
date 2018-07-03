@@ -121,7 +121,7 @@ The output will be similar to:
 
   2016-01-19 12:56:12 [INFO ] - Workflow completed.
 
-* Check the output of the application by copying the Tracking URL from the *ciop-run* command, and paste it in a browser (see :doc:`make a robust workflow and debug it <debug>`). You will see an output similar to:
+* Check the output of the application by copying the Tracking URL from the *ciop-run* command, and paste it in a browser (see :doc:`Exercise 2: make a robust workflow and debug it <debug>`). You will see an output similar to:
 
 .. figure:: includes/stagedata/gui1.png
    :scale: 70 %
@@ -132,4 +132,4 @@ Recap
 
 #. We downloaded and prepared data from a remote catalogue;
 #. We used it in our workflow (*Stage In*);
-#. We published the workflow results to pass the Stage out data by reference to the Hadoop framework
+#. We published the workflow results to pass the *Stage Out* data by reference to the Hadoop framework.

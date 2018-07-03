@@ -91,7 +91,7 @@ Run the node and debug the workflow
 
 .. admonition:: Congrats
 
-  You learnt how to insert an Exit function in your run executable, and to visualize the associated log message generated from the task completion.
+  You learnt how to insert a function that handles the exit of your run executable, and to visualize the associated log message generated from the task completion.
   
 Here's the related piece of code of the run executable:
 

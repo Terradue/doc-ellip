@@ -237,8 +237,12 @@ img.align-center, .figure.align-center, object.align-center {
 }
 
 /* any pre */
-.rst-content div[class^='highlight'] pre{
+.rst-content div[class^='highlight'] pre {
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.rst-content div.highlight-console-output pre {
+	color: #f0f0e0;
 }
 
 

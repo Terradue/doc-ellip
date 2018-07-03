@@ -45,9 +45,9 @@ Note the different **source** in the *node_expression*:
        :lines: 55-62
 
 The source is the URL of an **OpenSearch description document** of a **catalogue series**.
-That XML document contains information on how to query products of a certain type (or series), i.e. URL templates and the parameter descriptions.
+That XML document contains information on how to query products of a certain type or collection (or **series**), i.e. URL templates and the parameter descriptions.
 
-Note also the **OpenSearch parameters** (those with ``type="opensearch"`` and a ``target`` attribute) defined in the jobTemplate *expression*:
+Note also the **OpenSearch parameters** (those with ``type="opensearch"`` and a *target* attribute) defined in the jobTemplate *expression*:
 
 .. container:: context-application-descriptor-file
 
@@ -68,19 +68,19 @@ It contains a number of URL templates to obtain product metadata in different fo
 
 The URL template used for querying the products is this:
 
-.. admonition:: URL template for product query
+.. NOTE:: URL template for product query
 
     \https://catalog.terradue.com:443//eo-samples/series/mer_rr__1p/search?format=atomeop&count={count?}&startPage={startPage?}&startIndex={startIndex?}&q={searchTerms?}&lang={language?}&update={dct:modified?}&do={t2:downloadOrigin?}&start=\ **{time:start?}**\ &stop=\ **{time:end?}**\ &trel={time:relation?}&bbox=\ **{geo:box?}**\ &uid={geo:uid?}&geom={geo:geometry?}&rel={geo:relation?}&cat={dc:subject?}&psn={eop:platform?}&isn={eop:instrument?}&st={eop:sensorType?}&pl={eop:processingLevel?}&ot={eop:orbitType?}&title={eop:title?}&pi={eop:parentIdentifier?}&od={eop:orbitDirection?}&lc={t2:landCover?}&dcg={t2:doubleCheckGeometry?}
   
 
-The highlighted parts (``time:start``, ``time:end`` and ``geo:box``) are unique identifiers that refer to standardised search criteria;
+The highlighted parts (*time:start*, *time:end* and *geo:box*) are unique identifiers that refer to standardised search criteria;
 in this case the temporal range (defined by start and end time) and the geographical area (the WGS 84 coordinates and the bottom-left or top-right bounding box) the desired products have to match (the question mark after the identifier means that the parameter is optional for the search).
 
-The parameters in the ``<defaultParameters>`` section use these three identifiers as targets. This means, when the actual product query is done, the curly bracket portions are replaced with the text content of those XML elements or an empty string if there is none.
+The parameters in the *<defaultParameters>* section use these three identifiers as *targets*. This means, when the actual product query is performed, the curly bracket portions are replaced with the text content of those XML elements or an empty string if no default value has been provided.
        
 The replacement results in this query URL (shortened for readability):
 
-.. admonition:: Resolved URL for query
+.. NOTE:: Resolved URL for query
 
    \https://catalog.terradue.com:443//eo-samples/series/mer_rr__1p/search?format=atomeop&start=\ **2012-04-06T10:24:29.000Z**\ &stop=\ **2012-04-07**\ &bbox=\ **2.99,58.45,0.53,58.26**
 
@@ -103,7 +103,7 @@ Run and debug the workflow
 
 * Copy the Tracking URL and paste it in a browser,
 
-* Check the log of one of the two Tasks, as described in :doc:`make a robust workflow and debug it <debug>`. It will be similar to: 
+* Check the log of one of the two Tasks, as described in :doc:`Exercise 2: make a robust workflow and debug it <debug>`. It will be similar to: 
 
 .. figure:: includes/catalogue/gui1.png
    :scale: 60 %
@@ -117,8 +117,8 @@ Recap
 
 #. We used an OpenSearch catalogue as the source of the first node of the workflow;
 #. We defined a number of OpenSearch parameters to query the catalogue; 
-#. We processed the query results in the *node_expression*.
-#. We learned that by using OpenSearch job parameters we can determine the input products.
+#. We processed the query results in the *node_expression*;
+#. We learnt that by using OpenSearch job parameters we can determine the input products.
 
 .. rubric:: Footnotes
 

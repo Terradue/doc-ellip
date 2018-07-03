@@ -45,15 +45,15 @@ Debug the workflow
 
 * Click on the *n-node_expression* value under the column *Name*,
 
-* Click on the lens image,
+* Click on the lens icon,
 
-* Continue debugging as described in the exercise :doc:`make a robust workflow and debug it <debug>`,
+* Continue debugging as described in :doc:`Exercice 2: make a robust workflow and debug it <debug>`,
 
 * Click on the *n-node_binning* value under the column *Name*,
 
-* Click on the lens image,
+* Click on the lens icon,
 
-* Continue debugging as described in the exercise :doc:`make a robust workflow and debug it <debug>`.
+* Continue debugging as described in :doc:`Exercice 2: make a robust workflow and debug it <debug>`.
 
 The following image shows the steps that we have just performed:
 
