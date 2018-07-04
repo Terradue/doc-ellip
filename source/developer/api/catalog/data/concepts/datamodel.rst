@@ -294,7 +294,7 @@ EO daatset metadata encoded using this profile of Observations and Measurements 
 
 The model allows exhaustive specifications of an EarthObservation dataset.
 
-Combined with Atom, it is possible to include the EOP metadata in the :ref:`entry` either litterally or by reference. the representation is further developed in the :ref:`media types <mediatype>` section.
+Combined with Atom, it is possible to include the EOP metadata in the :ref:`entry` either literally or by reference. the representation is further developed in the :ref:`media types <mediatype>` section.
 
  
 

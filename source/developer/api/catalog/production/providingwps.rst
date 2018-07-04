@@ -3,7 +3,7 @@
 Providing Web Processing Service
 --------------------------------
 
-In order to provide an elligible Web Processing Service to the platform, we describe herafter the 3 basic operations that must be implmented. We will not detail them since they are already fully specific in the OGC standard [#OGCWPS]_ but we will underlign some aspects of the content that are important for a successful integration into the platform.
+In order to provide an eligible Web Processing Service to the platform, we describe herafter the 3 basic operations that must be implmented. We will not detail them since they are already fully specific in the OGC standard [#OGCWPS]_ but we will underline some aspects of the content that are important for a successful integration into the platform.
 
 
 Proxy or not proxy?
@@ -16,7 +16,7 @@ When you choose your WPS to be proxied, all the HTTP request between the user an
 System credentials
 """"""""""""""""""
 
-You can protect your system with a system username and password. Those credentials will never be divulgated to the user but only used by the platform when making the HTTP requests to your system. When registering your service, just include your username and password to the GetCapabilities URL and it will be then reused for any further request on the same domain of the WPS provider.
+You can protect your system with a system username and password. Those credentials will never be communicated to the user but only used by the platform when making the HTTP requests to your system. When registering your service, just include your username and password to the GetCapabilities URL and it will be then reused for any further request on the same domain of the WPS provider.
 
 .. code-block:: console
 

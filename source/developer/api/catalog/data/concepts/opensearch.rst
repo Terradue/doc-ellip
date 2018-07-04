@@ -22,8 +22,8 @@ The client uses the OSDD to learn about the public interface of the server. The 
     <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:time="http://a9.com/-/opensearch/extensions/time/1.0/" xmlns:geo="http://a9.com/-/opensearch/extensions/geo/1.0/" xmlns:eo="http://a9.com/-/opensearch/extensions/eo/1.0/" xmlns:param="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
       ...
       <description>This service is ...</description> ...
-      <Url type="application/atom+xml" rel=”results” template="http://...search/atom?q={searchTerms}&ts={time:start}&te={time:end }"/>
-      <Query role="example" searchTerms=”water" time:start="2012-04-01" time:end="2012-06-30”/>
+      <Url type="application/atom+xml" rel="results" template="http://...search/atom?q={searchTerms}&ts={time:start}&te={time:end }"/>
+      <Query role="example" searchTerms="water" time:start="2012-04-01" time:end="2012-06-30"/>
       ...
     </OpenSearchDescription>
 
@@ -67,17 +67,17 @@ Below is an example of a search response in Atom, to the free keyword “water�
  
 .. code-block:: xml
 
-    <feed xmlns=http://www.w3.org/2005/Atom xmlns:os=”http://a9.com/-/spec/opensearch/1.1/”>
-      <title>OpenSearch response to” water”</title>
+    <feed xmlns="http://www.w3.org/2005/Atom" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+      <title>OpenSearch response to "water"</title>
       <id>http://example.ceos.org/search?q=water</id>
       <author><name>Taro Yamada</name></author>
       <os:totalResults>231</os:totalResults>
       <os:startIndex>51</os:startIndex>
       <os:itemsPerPage>50</os:itemsPerPage>
-      <os:Query role=”request” searchTerms=”water” time:start=”2012-04-01” time:end=”2012-06-30” />
+      <os:Query role="request" searchTerms="water" time:start="2012-04-01" time:end="2012-06-30" />
       <entry>
         <title>Water Resource Management Guideline</title> <id>http://aaa.ceos.org/waterResource/guideline/v001</id>
-        <link href=”http://aaa.ceos.org/waterResource/guideline/v001“/>
+        <link href="http://aaa.ceos.org/waterResource/guideline/v001"/>
       </entry>
       <entry>
         ...
