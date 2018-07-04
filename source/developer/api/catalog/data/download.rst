@@ -13,7 +13,7 @@ Direct download
 
 Every entry in an index of the catalogue can have a link to the data that it describes.
 There is a resource location (URL) also called :ref:`enclosure <createentries>` that can be associated in the :ref:`entry metadata <createentries>`.
-This URL can be extracted easily using *opensearch-client*. For instance,
+This URL can be extracted easily using *opensearch-client*. For instance, the following command produces a simple list of resource locations for products that match match the query (in this case, no specific selection was made and the list is limited to the first results).
 
 .. code-block:: console
 
